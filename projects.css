@@ -14,7 +14,7 @@
   padding: 18px;
 }
 
-/* capa oscura encima de la imagen */
+
 .project-card::before {
   content: "";
   position: absolute;
@@ -28,18 +28,18 @@
   z-index: 1;
 }
 
-/* contenido encima */
+
 .project-info {
   position: relative;
   z-index: 2;
 }
 
-/* quitar imágenes normales */
+
 .project-card img {
   display: none;
 }
 
-/* ===== IMÁGENES COMO BACKGROUND ===== */
+/* ===== IMG BACKGROUND ===== */
 #store-sac {
   background: url("img/store\ sac.png") center/cover no-repeat;
 }

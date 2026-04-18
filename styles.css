@@ -73,13 +73,13 @@ body {
   text-align: center;
 }
 
-/* 🔥 evita que se comprima */
+
 .header-panel {
   width: 100%;
   max-width: none;
 }
 
-/* 🔥 mejora responsive */
+/* responsive */
 .header-content {
   display: flex;
   align-items: center;
@@ -510,7 +510,7 @@ body {
   transform: scale(1.2);
 }
 
-/* ===== COLORES POR TECNOLOGÍA ===== */
+/* ===== COLORS ===== */
 .skills-list li:nth-child(1):hover i { color: #e34c26; } /* HTML */
 .skills-list li:nth-child(2):hover i { color: #264de4; } /* CSS */
 .skills-list li:nth-child(3):hover i { color: #f0db4f; } /* JavaScript */
@@ -550,9 +550,9 @@ body {
   color: #94a3b8;
 }
 
-/* ================= SCROLL SOLO EN UPDATES ================= */
+/* ================= SCROLL  UPDATES ================= */
 .panel.scrollable {
-  align-items: flex-start; /* 🔥 evita centrado raro */
+  align-items: flex-start; 
   padding-top: 80px;
 }
 
@@ -604,7 +604,7 @@ p {
 .header-panel p {
   opacity: 0;
   transform: translateY(40px) scale(0.95);
-  filter: blur(6px); /* 🔥 más suave */
+  filter: blur(6px); 
 }
 
 /* ACTIVACIÓN */
@@ -632,7 +632,7 @@ p {
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
-    filter: blur(0); /* 🔥 clave */
+    filter: blur(0); 
   }
 }
 
@@ -645,7 +645,7 @@ p {
   to {
     opacity: 1;
     transform: scale(1);
-    filter: blur(0); /* 🔥 clave */
+    filter: blur(0); 
   }
 }
 
